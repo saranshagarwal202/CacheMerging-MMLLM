@@ -1,0 +1,26 @@
+# Core deep learning
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.40.0
+accelerate>=0.24.0
+
+# Vision-language model support
+Pillow>=9.3.0
+flash-attn>=2.3.4
+
+# Evaluation
+rouge==1.0.1
+scikit-learn>=1.3.0
+
+# Data
+datasets>=2.15.0
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Config and utilities
+omegaconf>=2.3.0
+tqdm>=4.66.0
+PyYAML>=6.0
+
+# Distributed inference
+deepspeed>=0.12.6

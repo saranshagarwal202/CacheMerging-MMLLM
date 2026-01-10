@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "cache-merging-mmllm"
+version = "0.1.0"
+description = "Cache Merging and descriptive generation for efficient long-context reasoning in multimodal LLMs"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
